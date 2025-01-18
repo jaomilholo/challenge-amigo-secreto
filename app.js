@@ -31,8 +31,8 @@ function sortearAmigo() { // <- Função para sortear um amigos
   } else {
     let sorteio = Math.floor(Math.random() * amigos.length);
     let nomeSorteado = amigos[sorteio];
-    amigos.splice(sorteio, 1);
-    atualizarLista();
+    // amigos.splice(sorteio, 1);
+    // atualizarLista();
     document.getElementById('resultado').innerHTML = nomeSorteado;
   }
 }
