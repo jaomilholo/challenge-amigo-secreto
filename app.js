@@ -1,5 +1,5 @@
 let amigos = [];
-
+let amigo;
 function adicionarAmigo() { // <- Função para adicionar um amigo
   let novoAmigo = document.getElementById('amigo').value;
   if (novoAmigo == '') {
@@ -9,8 +9,18 @@ function adicionarAmigo() { // <- Função para adicionar um amigo
     console.log(amigos)
   }
   limparInput();
+  atualizarLista();
 }
 
-function limparInput() {
+function limparInput() { // <- Função para limpar o input
   novoAmigo = document.getElementById('amigo').value = '';
+}
+
+function atualizarLista() { // <- Função para atualizar a lista de amigos
+  let lista = document.getElementById('listaAmigos');
+  lista.innerHTML = '';
+  for (let amigoNalista of amigos) {
+    let listaAmigos = `<li>${amigoNalista}</li>`;
+    lista.innerHTML += listaAmigos;
+  }
 }
