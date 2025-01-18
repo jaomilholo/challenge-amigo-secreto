@@ -6,7 +6,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - JavaScript
 ## 🔗 Link do Projeto
-- [Acesse o projeto finalizado, online]()
+- [Acesse o projeto finalizado, online](https://jaomilholo.github.io/challenge-amigo-secreto/)
 
  ## 📬 Contato
 
