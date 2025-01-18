@@ -8,4 +8,9 @@ function adicionarAmigo() { // <- Função para adicionar um amigo
     amigos.push(novoAmigo);
     console.log(amigos)
   }
+  limparInput();
+}
+
+function limparInput() {
+  novoAmigo = document.getElementById('amigo').value = '';
 }
