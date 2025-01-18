@@ -1,5 +1,4 @@
 let amigos = [];
-let amigo;
 
 function adicionarAmigo() { // <- Função para adicionar um amigo
   let novoAmigo = document.getElementById('amigo').value;
